@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "dl" {
-  bucket = "datalake-carlos2-igti-edc-tf"
+  bucket = "datalake-carlos3-igti-edc-tf"
   acl    = "private"
 
   tags = {
@@ -18,7 +18,7 @@ resource "aws_s3_bucket" "dl" {
 
 
 resource "aws_s3_bucket" "stream" {
-  bucket = "igti-carlos2-streaming-bucket"
+  bucket = "igti-carlos3-streaming-bucket"
   acl    = "private"
 
   tags = {
