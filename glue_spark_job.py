@@ -1,5 +1,6 @@
 # comentario para modificar o arquivo .py
 # alterar codigo por comentario
+# alterando
 
 import sys
 from awsglue.utils import getResolvedOptions
